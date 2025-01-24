@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.sourcelink.json
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\bin\Debug\net9.0\LibraryManagementConsole.exe
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\bin\Debug\net9.0\LibraryManagementConsole.deps.json
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\bin\Debug\net9.0\LibraryManagementConsole.runtimeconfig.json
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\bin\Debug\net9.0\LibraryManagementConsole.dll
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\bin\Debug\net9.0\LibraryManagementConsole.pdb
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.dll
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\refint\LibraryManagementConsole.dll
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.pdb
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\LibraryManagementConsole.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\dotnet\LibraryManagementConsole\obj\Debug\net9.0\ref\LibraryManagementConsole.dll
