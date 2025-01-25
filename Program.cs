@@ -30,7 +30,10 @@ namespace LibraryManagementConsole
                     
                 Console.Write("Member name to add: ");
                 string name_of = Console.ReadLine();
-                library1.add_member(name_of);
+
+                Console.Write("Add book name taken: ");
+                string book = Console.ReadLine();
+                library1.add_member(name_of,book);
             
         
                 library1.get_member();
@@ -52,27 +55,37 @@ public class Admin{
     public string password{get;set;}
 
 }
+public class Person{
+    public string name{get;set;}
+    public string book_name{get;set;}
+    
 
+
+}
 //code library class
 public class Library{
     //Substitute string with Person details object data type
 
-    public List<string> Members {get;set;}
+    public List<Person> Members {get;set;}
 
     public Library(){
-        Members = new List<string>();
+        Members = new List<Person>();
     }
 
-    public void add_member(string member_name){
-
-        Members.Add(member_name);
-        Console.WriteLine($"Member {member_name} added successfully");
+    public void add_member(string nm,string book_nm){
+        Person member = new Person();
+        member.name = nm;
+        member.book_name = book_nm;
+        Members.Add(member);
+        Console.WriteLine($"Member {member.name} added successfully");
     } 
     public void get_member(){
         Console.WriteLine("Members : ");
-        foreach(string member in Members){
-            Console.WriteLine($" {member}");
+        foreach(Person member in Members){
+            Console.WriteLine($"Name :  {member.name}");
+            Console.WriteLine($"Book : {member.book_name}");
         }
     }
+    
 
 }
