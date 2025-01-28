@@ -58,8 +58,9 @@ public class Admin{
 public class Person{
     public string name{get;set;}
     public string book_name{get;set;}
-    
-
+    public DateTime take_date{get;set;}
+    public DateTime overdue_date{get;set;}
+    public int fine{get;set;}
 
 }
 //code library class
@@ -72,13 +73,17 @@ public class Library{
         Members = new List<Person>();
     }
 
-    public void add_member(string nm,string book_nm){
+    public void add_member(string nm,string book_nm,int over_due_days){
         Person member = new Person();
         member.name = nm;
         member.book_name = book_nm;
+        member.take_date = DateTime.Now;
+        member.overdue_date = member.take_date.AddDays(over_due_days);
+        member.fine = 0;
         Members.Add(member);
         Console.WriteLine($"Member {member.name} added successfully");
     } 
+    //make this one member status retrieval function
     public void get_member(){
         Console.WriteLine("Members : ");
         foreach(Person member in Members){
@@ -86,6 +91,11 @@ public class Library{
             Console.WriteLine($"Book : {member.book_name}");
         }
     }
+    //check book take status function
+    //function to update book returned
+    //when book returned delete 
+    //function to see whole members book status
+    //use LINQ in when showing log 
     
 
 }
